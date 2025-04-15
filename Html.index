@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egg</title>
+    <link rel="stylesheet" href="egg.css">
+  </head>
+  <body>
+  <header>
+    <h1>Eggs industries</h1>
+    </header>
+<div id="grad1"></div>
+<p> <br>Come and taste our delicious eggs straight from the farm.</br>
+  <br>We care about your safety that's why we implemented security
+  guards and cameras all over the place.</p></br>
+  <table>
+       <colgroup>
+           <col span="2">
+       </colgroup>
+       <thead>
+           <tr>
+               <th>Activities</th>
+               <th>Days of operation</th>
+               <th>Prices</th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr>
+               <td>Family night out</td>
+               <td>Monday</td>
+               <td>$15 (kids enter free)</td>
+           </tr>
+           <tr>
+               <td>Cleanup</td>
+               <td>Wednesday</td>
+               <td>$14</td>
+           </tr>
+           <tr>
+               <td>Easter Egg hunt</td>
+               <td>Tuesday</td>
+               <td>$12</td>
+           </tr>
+       </tbody>
+       <div id="popupContainer">
+        <h1>Giveaway</h1>
+        <h3>Locate us</h3>
+        <button onclick="openFn()">
+            Open Popup
+        </button>
+        <div id="overlay" class="hidden"></div>
+        <div id="popupDialog" class="hidden">
+            <p>
+              Win a giveaway with us!
+            </p>
+            <button onclick="openFn()">
+                Close
+            </button>
+        </div>
+       <button popovertarget="my-popover">Locate us!</button>
+        <div id="my-popover" popover>123 California Avenue, 32657</div>
+       <button onclick="popup()">Win a giveaway!</button>
+    <div class="footer">
+      <footer>
+        © 2022 Egg industries.
+      </footer>
+    </div>
+        </table>
+      <script src="egg.js"></script>
+  </body>
+</html>
